@@ -834,7 +834,7 @@ function TestimonialsSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="bg-white p-8 rounded-xl shadow-lg"
             >
-              <div className="text-indigo-600 text-4xl mb-4">"</div>
+              <div className="text-indigo-600 text-4xl mb-4">{`"`}</div>
               <p className="text-gray-600 mb-6 text-lg italic">
                 {testimonial.quote}
               </p>
